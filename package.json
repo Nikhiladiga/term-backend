@@ -1,0 +1,19 @@
+{
+  "name": "term",
+  "version": "1.0.0",
+  "description": "An online terminal emulator",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -r esm app.js"
+  },
+  "author": "Nikhil Adiga",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "node-pty": "^0.9.0",
+    "socket.io": "^2.3.0"
+  }
+}
